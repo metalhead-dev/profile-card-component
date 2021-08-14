@@ -1,0 +1,153 @@
+:root {
+    --text-strong: #2E3349;
+    --text-light: #6B7082;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #19A1AE;
+    background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
+    background-position: left -3vw top -34vh, right 1vw bottom -51vh;
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    height: 100vh;
+    padding: 0 2rem;
+}
+
+.shadow {
+    box-shadow: 0 5rem 10rem -2rem rgba(8, 70, 94, .5);
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    box-shadow: 0 .4rem .4rem 0 rgba(0, 0, 0, .25);
+    overflow: hidden;
+}
+
+.card__body {
+    text-align: center;
+}
+
+.card__avatar {
+    background-color: #FFFFFF;
+    border: .5rem solid #FFFFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+.card__name {
+    color: var(--text-strong);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: -3rem;
+}
+
+.card__age {
+    color: var(--text-light);
+    font-weight: 400;
+    margin-left: .5rem;
+}
+
+.card__location {
+    color: var(--text-light);
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.card__footer {
+    border-top: .1rem solid #E8E9EC;
+    display: flex;
+        justify-content: space-around;
+    margin-top: 2.5rem;
+    padding: 2.7rem;
+}
+
+.card__social {
+    text-align: center;
+    width: 100%;
+}
+
+.card__number {
+    color: var(--text-strong);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card__label {
+    color: var(--text-light);
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-top: .6rem;
+}
+
+/* 
+===========================================
+RESPONSIVE
+=========================================== 
+*/
+
+/* 1440px */
+@media screen and (max-width: 90em) {
+    body {
+        background-position: left -20vw top -70vh, right -15vw bottom -90vh;
+    }
+}
+
+/* 1280px */
+@media screen and (max-width: 80em) {
+    body {
+        background-position: left -29vw top -70vh, right -20vw bottom -94vh;
+    }
+}
+
+/* 1024px */
+@media screen and (max-width: 64em) {
+    body {
+        background-position: left -48vw top -70vh, right -39vw bottom -92vh;
+    }
+}
+
+/* 768px */
+@media screen and (max-width: 48em) {
+    body {
+        background-position: left -81vw top -35vh, right -71vw bottom -49vh;
+    }
+}
+
+/* 480px */
+@media screen and (max-width: 30em) {
+    body {
+        background-position: left -161vw top -65vh, right -133vw bottom -86vh;
+    }
+}
+
+/* 375px */
+@media screen and (max-width: 23.4375em) {
+    body {
+        background-position: left -113vw top -50vh, right -110vw bottom -47vh;
+        background-size: 62.2rem;
+    }
+}
