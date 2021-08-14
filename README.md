@@ -14,7 +14,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Solution URL: https://www.frontendmentor.io/solutions/profile-card-component-html-css-uTfSSG31H
 
-Live Site URL: https://metalhead-dev.github.io/Profile-card-component/
+Live Site URL: https://metalhead-dev.github.io/profile-card-component/
 
 In order for me to complete this task, the following technologies were used:
 
